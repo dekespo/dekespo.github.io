@@ -1,2 +1,2 @@
-# dekespo.github.io
+# dekespo
 GitHub Blog
