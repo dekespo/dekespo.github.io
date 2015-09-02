@@ -1,4 +1,4 @@
-// Ankara Mekan İsmi Geliştirme
+// Ankara Mekan Ä°smi GeliÅŸtirme
 
 main.prev = null; // static
 function main()
@@ -13,7 +13,7 @@ function main()
 		res = chooseMain(weight);
 		if(res == main.prev)
 		{
-			res += " (Israrcıyım.)";
+			res += " (IsrarcÄ±yÄ±m.)";
 		}
 		document.getElementById('name').innerHTML = res;
 		main.prev = res;

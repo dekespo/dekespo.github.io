@@ -3,8 +3,8 @@ weight.mainAdjeNoun = 75;
 weight.mainSingleNoun = 15;
 weight.mainAddress = [10,90,10];
 
-weight.listenAdjeNoun = [50, 50]; // sıfat, isim
-weight.listenWhat = [60, 40]; // gerçek, geyik
+weight.listenAdjeNoun = [50, 50]; // sÄ±fat, isim
+weight.listenWhat = [60, 40]; // gerÃ§ek, geyik
 
 // Check Function
 var weightCheck = function(w)
@@ -16,19 +16,19 @@ var weightCheck = function(w)
 	var result;
 	if(mainTotal !== 100)
 	{
-		result = "UYARI: weight.js \"main\" değelerinin ağırlıkları 100 etmiyor.\nSayılar: " + w.mainAdjeNoun.toString() + " " + w.mainSingleNoun.toString() + " " + w.mainAddress[0].toString();
+		result = "UYARI: weight.js \"main\" deÄŸelerinin aÄŸÄ±rlÄ±klarÄ± 100 etmiyor.\nSayÄ±lar: " + w.mainAdjeNoun.toString() + " " + w.mainSingleNoun.toString() + " " + w.mainAddress[0].toString();
 	}
 	else if(mainAddressTotal != 100)
 	{
-		result = "UYARI: weight.js dosyasının \"mainAddress\" değerin son 2 sayısı, " + w.mainAddress[1].toString() + " ve " + w.mainAddress[2].toString() + ", 100 etmiyor";
+		result = "UYARI: weight.js dosyasÄ±nÄ±n \"mainAddress\" deÄŸerin son 2 sayÄ±sÄ±, " + w.mainAddress[1].toString() + " ve " + w.mainAddress[2].toString() + ", 100 etmiyor";
 	}
 	else if(listenTotal != 100)
 	{
-		result = "UYARI: weight.js dosyasının \"listenAdjeNoun\" değerin son 2 sayısı, " + w.listenAdjeNoun[0].toString() + " ve " + w.listenAdjeNoun[1].toString() + ", 100 etmiyor";
+		result = "UYARI: weight.js dosyasÄ±nÄ±n \"listenAdjeNoun\" deÄŸerin son 2 sayÄ±sÄ±, " + w.listenAdjeNoun[0].toString() + " ve " + w.listenAdjeNoun[1].toString() + ", 100 etmiyor";
 	}
 	else if(listenWhatTotal != 100)
 	{
-		result = "UYARI: weight.js dosyasının \"listenWhat\" değerin son 2 sayısı, " + w.listenWhat[0].toString() + " ve " + w.listenWhat[1].toString() + ", 100 etmiyor";
+		result = "UYARI: weight.js dosyasÄ±nÄ±n \"listenWhat\" deÄŸerin son 2 sayÄ±sÄ±, " + w.listenWhat[0].toString() + " ve " + w.listenWhat[1].toString() + ", 100 etmiyor";
 	}
 	else
 	{

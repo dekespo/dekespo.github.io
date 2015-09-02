@@ -14,7 +14,7 @@ var mainSinglenoun = [
 	"Stendhal",
 	"Numara 90",
 	"Sefiller",
-	"Mağdurlar",
+	"MaÄŸdurlar",
 	"Nietzsche",
 	"Montana",
 	"Amigo Bar"
