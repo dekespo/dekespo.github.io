@@ -14,12 +14,17 @@ listenGroup[0] = [
 	"Kapıdaki",
 	"Sağdaki",
 	"Soldaki",
-	"Bardaki"
+	"Bardaki",
+	"Asma kattaki",
+	"Mezzalunadaki",
+	"Kafayı bulmuş",
+	"Kafayı bulamamış",
+	"Sigaraya çıkan",
 ];
 
 // b
 listenGroup[1] = [
-	"amcanın",
+		"amcanın",
 	"amcaların",
 	"teyzenin",
 	"teyzelerin",
@@ -34,19 +39,21 @@ listenGroup[1] = [
 	"beyaz yakalının",
 	"beyaz yakalıların",
 	"garibanın",
-	"Hegelcilerin",
+	"hegelcilerin",
 	"kadın çalışmaları mastır öğrencilerinin",
 	"garsonun",
 	"çalışanın",
-	"Erasmus öğrencilerinin",
+	"erasmus öğrencilerinin",
 	"yabancıların",
 	"İstanbulluların",
-	"ODTÜlülerin",
-	"Hacettepelilerin",
-	"Bilkentlilerin",
-	"Gazililerin",
+	"odtÜlülerin",
+	"hacettepelilerin",
+	"bilkentlilerin",
+	"gazililerin",
 	"entellektüellerin",
-	
+	"eski solcuların",
+	"tanıdığın",
+	"arkadaşın",
 ];
 
 // c
@@ -61,4 +68,19 @@ listenGroup[2] = [
 	"İngilizceyi katletmesi.",
 	"İngilizcenin tabutuna son çiviyi çakması.",
 	"globishi.",
+	"terbiyesize nasıl had bildirdiği.",
+	"ince eleyip sık dokuması.",
+	"sık eleyip ince dokuması.",
+	"lorem ipsumu.",
+	"Paris Belediye Başkanına hitabı.",
+	"müstehcen fıkraları.",
+	"Amerika maceraları.",
+	"Avrupa seyahati.",
+	"Oregon'da ördek yetiştiriciliği üzerine görüşleri.",
+	"ne kadar kazandığı.",
+	"neler yitirdiği.",
+	"neleri kaybettiği.",
+	"yitirdiğimiz değerlere ağıtı.",
+	"lise anıları.",
+	"Kolej anıları.",
 ];

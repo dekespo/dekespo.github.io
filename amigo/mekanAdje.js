@@ -73,5 +73,7 @@ var mainAdje = [
 	"Ukala",
 	"Hipster",
 	"Dargın",
-	"Tüplü"
+	"Tüplü",
+	"Paytak",
+	"Kanatlı"
 ];	
