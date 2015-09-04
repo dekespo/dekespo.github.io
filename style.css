@@ -6,29 +6,63 @@ html
 	-webkit-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
+	z-index: -1;
 	color: rgb(230, 0, 0);
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
 #topImages
 {
-   text-align:center;
+	padding-top: 10px;
+	height: 200px;
 }
 
-#topImages.img {
+#topLeft
+{
+	padding-left: 5%;
+	float: left;
+	width: 45%;
+	height: 200px;
+}
+
+#topRight
+{
+	padding-right: 5%;
+	float: right;
+	width: 45%;
+	height: 200px;
+}
+
+/*#topImages.img 
+{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
-h1, h2, p 
+#list
 {
-	text-align: center;
-}
-
-#myElement
-{
+	height: 200px;
 	background: silver;
-	height: 300px;
+}
+
+.left
+{
+	height: 200px;
+	width: 50%;
+	text-align:center;
+	float:left;
+}
+
+.right
+{
+	height: 200px;
+	width: 50%;
+	text-align:center;
+	float:right;
+}
+
+h1, h2, h3, p 
+{
 	text-align: center;
 }
