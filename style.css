@@ -1,14 +1,20 @@
 /* Whole web page style */
 html
 {
-	background: rgb(31, 46, 46) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-webkit-background-size: cover;
+	background: black no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
-	z-index: -1;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: rgb(230, 0, 0);
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	z-index: -1;
+}
+
+/* Set the page to the center*/
+#page-wrap
+{
+	background: rgb(31, 46, 46);
+	width: 800px;
+	margin: 0 auto;
 }
 
 #topImages
@@ -19,17 +25,15 @@ html
 
 #topLeft
 {
-	padding-left: 5%;
 	float: left;
-	width: 45%;
+	width: 50%;
 	height: 100px;
 }
 
 #topRight
 {
-	padding-right: 5%;
 	float: right;
-	width: 45%;
+	width: 50%;
 	height: 100px;
 }
 
@@ -59,3 +63,14 @@ h1, h2, h3, p
 {
 	text-align: center;
 }
+
+/*@media (max-width: 500px)
+{
+	background: rgb(31, 46, 46) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	width: 80%;
+	margin: 0 auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	color: rgb(230, 0, 0);
+	z-index: -1;
+}*/
