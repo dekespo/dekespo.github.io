@@ -19,7 +19,6 @@ html
 
 #topImages
 {
-	padding-top: 10px;
 	height: 100px;
 }
 
@@ -59,7 +58,7 @@ html
 	float:right;
 }
 
-h1, h2, h3, p 
+h1, h2, h3, p, #counter
 {
 	text-align: center;
 }
