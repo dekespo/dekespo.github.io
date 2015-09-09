@@ -1,0 +1,65 @@
+/* Whole web page style */
+html
+{
+	background: black no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: rgb(230, 0, 0);
+	z-index: -1;
+}
+
+/* Set the page to the center*/
+#page-wrap
+{
+	background: rgb(31, 46, 46);
+	width: 800px;
+	margin: 0 auto;
+}
+
+#topImages
+{
+	height: 100px;
+}
+
+#topLeft
+{
+	float: left;
+	width: 50%;
+	height: 100px;
+}
+
+#topRight
+{
+	float: right;
+	width: 50%;
+	height: 100px;
+}
+
+#list
+{
+    padding: 0px 10px 0px 10px;
+	/*height: 200px;*/
+    display: inline-block;
+	background: silver;
+}
+
+h1, h2, h3 
+{
+	text-align: center;
+}
+
+/*For small screen devices*/
+@media (max-width: 800px)
+{
+	#page-wrap
+	{
+		background: rgb(31, 46, 46) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		width: 80%;
+		margin: 0 auto;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+		color: rgb(230, 0, 0);
+		z-index: -1;
+	}
+}
