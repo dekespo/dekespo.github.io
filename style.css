@@ -38,7 +38,8 @@ html
 
 #list
 {
-	height: 200px;
+    width: 100%;
+	display: inline-block;
 	background: silver;
 }
 
@@ -58,7 +59,7 @@ html
 	float:right;
 }
 
-h1, h2, h3, p, #counter
+h1, h2, h3, p
 {
 	text-align: center;
 }
