@@ -38,13 +38,18 @@ html
 
 #list
 {
-    padding: 0px 10px 0px 10px;
-	/*height: 200px;*/
+    width: 100%;
     display: inline-block;
 	background: silver;
 }
 
-h1, h2, h3 
+p
+{
+    padding: 0px 10px 0px;
+	text-align: center;
+}
+
+h1, h2, h3
 {
 	text-align: center;
 }
