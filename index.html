@@ -9,8 +9,7 @@
 		<!-- Google Analytics javascript code--> 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 		  ga('create', 'UA-66368982-1', 'auto');
@@ -18,37 +17,64 @@
 		</script>
 	</head>
 
-	<body>
-		<div id="page-wrap">
-		<div id="topImages"> 
-			<img id="topLeft" src="images/mathematics.png">
-			<img id="topRight" src="images/programming.png">
-		</div>
-		<h1> Dekespo's Blog </h1>
-		<h2> My interest fields: <br> <a
-				href="https://en.wikipedia.org/wiki/Applied_mathematics">
-				Applied Mathematics</a> and <a
-				href="https://en.wikipedia.org/wiki/Computer_programming">
-				Programming</a> </h2>
-		<h3>And the fields can be divided as in the following sections:</h3>
-		<div id="list">
-			<div class="left">
-				<h3> Applied Mathematics </h3>
-				<p> Deterministic System <br>
-				Stochastic System <br>
-				Financial Mathematics</p>
-			</div>
-			<div class="right">
-				<h3> Programming </h3>
-				<p> Algorithms <br>
-				<a href="https://dekespo.github.io/how_computers_work/index.html">
-				How computers work?</a>  <br>
-				My programs</p>
-			</div>
-		</div>
-		<div id="bottom">
-			<p> <img src="images/github-mark.png"> Hosted by GitHub</p>
-		</div>
-		</div>
+	<body id="page-wrap" onload="getCurrentTime()">
+		<header class="header-top">
+            <div id="topImages"> 
+                <img id="topLeft" src="images/mathematics.png">
+                <img id="topRight" src="images/programming.png">
+            </div>
+            <div class="centralise colourBlack" id="currentTime">
+            </div>
+		</header> 
+        <header class="header-top-hidden">
+            <div id="topImages"> 
+                <img id="topLeft" src="#">
+                <img id="topRight" src="#">
+            </div>
+            <div class="centralise colourBlack">
+            </div>
+        </header> 
+        <h1> Dekespo's Blog </h1>
+        <h2> My interest fields: <br> <a
+                href="https://en.wikipedia.org/wiki/Applied_mathematics">
+                Applied Mathematics</a> and <a
+                href="https://en.wikipedia.org/wiki/Computer_programming">
+                Programming</a> </h2>
+        <h3>And the fields can be divided as in the following sections:</h3>
+        <div id="list">
+            <div class="left">
+                <h3> Applied Mathematics </h3>
+                <p> Deterministic System <br>
+                Stochastic System <br>
+				<!--
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+                Stochastic System <br>
+				-->
+                Financial Mathematics</p>
+            </div>
+            <div class="right">
+                <h3> Programming </h3>
+                <p> Algorithms <br>
+                <a href="https://dekespo.github.io/how_computers_work/index.html">
+                How computers work?</a>  <br>
+                My programs</p>
+            </div>
+        </div>
+        <div id="bottom">
+            <p> <img src="images/github-mark.png"> Hosted by GitHub</p>
+        </div>
 	</body>
 </html>

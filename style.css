@@ -45,7 +45,6 @@ html
 
 .left
 {
-	height: 200px;
 	width: 50%;
 	text-align:center;
 	float:left;
@@ -53,15 +52,35 @@ html
 
 .right
 {
-	height: 200px;
 	width: 50%;
 	text-align:center;
 	float:right;
 }
 
-h1, h2, h3, p
+.colourBlack
+{
+    background-color: black;
+}
+
+h1, h2, h3, p, .centralise
 {
 	text-align: center;
+}
+
+.header-top 
+{ 
+    /* pin to top - 0 is default */
+    position: fixed;
+    /* raise z-index to cover */
+    z-index: 1;
+	width: 800px;
+	//margin: 0 auto;
+}
+
+.header-top-hidden
+{ 
+	width: 800px;
+	//margin: 0 auto;
 }
 
 /*For small screen devices*/
@@ -72,9 +91,23 @@ h1, h2, h3, p
 		background: rgb(31, 46, 46) no-repeat center center fixed;
 		-webkit-background-size: cover;
 		width: 80%;
-		margin: 0 auto;
+		//margin: 0 auto;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 		color: rgb(230, 0, 0);
 		z-index: -1;
 	}
+
+    .header-top 
+    { 
+        /* pin to top - 0 is default */
+        position: fixed;
+        /* raise z-index to cover */
+        z-index: 1;
+        width: 80%;
+    }
+
+    .header-top-hidden
+    { 
+        width: 100%;
+    }
 }
