@@ -1,0 +1,20 @@
+// TODO: Define these images in more specific
+#topImages
+{
+	height: 100px;
+}
+
+#topLeft
+{
+	float: left;
+	width: 50%;
+	height: 100px;
+}
+
+#topRight
+{
+	float: right;
+	width: 50%;
+	height: 100px;
+}
+
