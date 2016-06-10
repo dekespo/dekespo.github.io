@@ -1,0 +1,31 @@
+@import "style.css";
+
+/*For small screen devices*/
+@media (max-width: 800px)
+{
+	#page-wrap
+	{
+		background: rgb(31, 46, 46) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		width: 80%;
+		//margin: 0 auto;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+		color: rgb(230, 0, 0);
+		z-index: -1;
+	}
+
+    .header-top 
+    { 
+        /* pin to top - 0 is default */
+        position: fixed;
+        /* raise z-index to cover */
+        z-index: 1;
+        width: 80%;
+    }
+
+    .header-top-hidden
+    { 
+        width: 100%;
+    }
+}
+
