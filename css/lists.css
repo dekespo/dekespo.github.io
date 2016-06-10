@@ -12,20 +12,14 @@
 	//display: block;
 }
 
-#Blog #list ul
-{
-	width: 50%;
-}
-
-// TODO: Check for small screen devices
 #Blog #list .left
 {
 	float:left;
-	//width: 50%;
+	width: 50%;
 }
 
 #Blog #list .right
 {
-	//width: 50%;
 	float:right;
+	width: 50%;
 }
