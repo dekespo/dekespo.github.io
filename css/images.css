@@ -3,18 +3,20 @@
 	height: 100px;
 }
 
-#topLeft
+#topImages img
+{
+	height: 100px;
+}
+
+#topImages #topLeft
 {
 	float: left;
 	width: 50%;
-	height: 100px;
 }
 
-#topRight
+#topImages #topRight
 {
 	float: right;
 	width: 50%;
-	height: 100px;
 }
 
-// TODO: Define these images in more specific

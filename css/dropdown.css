@@ -1,0 +1,17 @@
+#navigationBar .dropdown-content 
+{
+	display: none;
+	background-color: black;
+	position: absolute;
+}
+
+#navigationBar .dropdown:hover .dropdown-content 
+{
+	display: block;
+	border-top: thick double red;
+}
+
+#navigationBar .dropdown:hover .dropdown-content a
+{
+	display: block;
+}
