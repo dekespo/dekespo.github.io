@@ -13,13 +13,13 @@
 
 #navigationBar ul li
 {
-	display: inline;
+	display: inline-block;
 }
 
 #navigationBar ul li a
 {
 	color: red;
-	padding: 14px 16px;
+	padding: 0px 16px 0px;
 	text-decoration:none;
 	font-weight: bold;
 }
@@ -38,7 +38,5 @@
 {
 	background: black;
 	font-weight: bold;
-	//border-style: solid;
-	//border-color: red;
 }
 

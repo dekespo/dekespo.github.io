@@ -7,7 +7,7 @@ function getCurrentTime()
 	Date.prototype.getWeek = function() 
 	{
 		var firstDayofThisMonth = new Date(this.getFullYear(), month, 1);
-		return Math.ceil((((this - firstDayofThisMonth) / 86400000) + firstDayofThisMonth.getDay() + 1) / 7);
+		return Math.ceil((((this - firstDayofThisMonth) / 86400000) + firstDayofThisMonth.getDay()) / 7);
 	}
 
 	var getSundayGap = function()

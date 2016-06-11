@@ -8,8 +8,13 @@
 
 #list ul
 {
+	list-style-type: circle;
 	text-align: left;
-	//display: block;
+}
+
+#Blog #list ul
+{
+	list-style-type: none;
 }
 
 #Blog #list .left
