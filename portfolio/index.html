@@ -5,7 +5,8 @@
 		<title> dekespo - Portfolio </title>
 		<link rel="stylesheet" href="../css/style.css"/>
 		<script type="text/javascript" src="../javascript/time.js"> </script>
-		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../javascript/jquery.js"> </script>
 	</head>
 
 	<body id="page-wrap" onload="getCurrentTime()">
@@ -45,16 +46,14 @@
 			</div>
         </header> 
 
-		<div ng-app="">
-			<p>Name : <input type="text" ng-model="name"></p>
-			<h1>Hello {{name}}</h1>
-		</div>
-
 		<div id="Portfolio">
 			<h1> Dekespo's Portfolio </h1>
 			<p> I code everyday and the following websites are the resources I have studied or used so far.</p>
+
+			<br>
+
 			<div id="list">
-				<ul>
+				<ul >
 					<li> <a href=https://www.codingame.com/profile/3d86dd4e3edef53946e063d7b4c1550a137436>CodinGame - Play with Programming</a> Solving challenging puzzles with your favourite programming language(s) (The link is my profile)</li>
 					<li> <a href=http://www.cleveralgorithms.com>Clever Algorithms: Nature-Inspired Programming Recipes</a> Artificial Intelligence inspired by Nature.</li>
 					<li> <a href=https://codility.com/programmers/lessons/>Codility</a> It has very specific problem-solving algorithms</li>
@@ -64,61 +63,76 @@
 
 			<br><br>
 
-			<p> I have been working and contributing on different projects. The list is as in the following: </p>
+			<p> I have been working and contributing on different
+			projects. The list is as in the following and click on the
+			picture to have more information and on the title to see the source code: </p>
+
+			<br>
+
 			<div id="list">
-				<ul>
-					<li class="showDescription brokkr"> <p><a
-						href=https://github.com/linfredriksson/Brokkr>Brokkr</a> <br>
-					Programming Language: Lua <br>
-					Team: 2 <br>
-					A game similar to bomberman that can be played
-					multiplayer over network.
-					</p> </li>
-					<li> <a href=https://github.com/naslundx/predprey>
-						predprey </a> A game where predators prey on
-					preys, obviously. When you play as a pred, you
-					have to catch all the preys, when you play as a
-					prey you try to survive as long as possible. I
-					have implemented the artificial intelligence part
-					of the predators. Developed with a friend.
-					Programming Language: Python.</li>
-					<li> <a
-						href=https://github.com/naslundx/FightR2>FigthR2</a>
-					A platform game with fights, it still needs to be
-					developed in a signifcant part. Developed with a
-					friend. Programming Language: C++.</li>
-					<li> <a
-						href=https://github.com/dekespo/tic_tac_toe_js>TIC
-					TAC TOE</a> TIC TAC TOE game with an AI, even two AIs to
-					each other. Developed myself with HTML5 canvas and
-					JavaScript. This game will (hopefully) be available on
-					this website.</li>
-					<li> <a
+				<ul id="expansion">
+					<li class="showDescription brokkr"> <span> <a
+						href=https://github.com/linfredriksson/Brokkr>Brokkr</a> <br><p>
+						Programming Language: Lua <br>
+						Team: 2 <br>
+						A game similar to bomberman that can be played
+						with up to three other players over network.
+						</p> </span> </li>
+					<li class="showDescription predprey"> <span> <a href=https://github.com/naslundx/predprey>
+							predprey </a> <p> 
+						Programming Language: Python (both 2 and 3) <br>
+						Team: 2 <br>
+						A game where predators prey on
+						preys, obviously. When you play as a pred, you
+						have to catch all the preys, when you play as a
+						prey you try to survive as long as possible. I
+						have implemented the artificial intelligence part
+						of the predators.  </p> </span> </li>
+					<li class="showDescription fightr2"> <span> <a
+						href=https://github.com/naslundx/FightR2>FigthR2</a> <p>
+						Programming Language: C++ <br>
+						Team: 2 <br>
+						A platform game with fights, it still needs to be
+						developed in signifcant amount. </p> </span> </li>
+					<li class="showDescription tictactoe"> <span> <a
+						href=https://github.com/dekespo/tic_tac_toe_js>Tic-tac-toe</a> <p>
+						Programming Language: JavaScript with HTML5 Canvas <br>
+						Team: 1 <br> 
+						The famous tic-tac-toe game with an AI, even two
+						AIs against to each other. This game will (hopefully) be available on
+						this website. </p> </span> </li>
+					<li class="showDescription pingpong"> <span> <a
 						href=https://github.com/dekespo/ping_pong_html_canvas_js>
-					Ping Pong </a> Ping Pong game with an AI, possibly
-					will be developed with AIs. Developed myself with HTML5 canvas and
-					JavaScript. This game will (hopefully) be available on
-					this website.</li>
-					<li> <a
+						Ping Pong </a> <p> 
+						Programming Language: JavaScript with HTML5 Canvas <br>
+						Team: 1 <br> 
+						Ping Pong game with an AI, possibly
+						will be developed with AIs. This game will (hopefully) be available on
+						this website.</p> </span> </li>
+					<li class="showDescription howcomputerworks"> <span> <a
 						href=https://github.com/dekespo/how_computers_work_py>
-					How Computers Work?</a> It is a program to show
-					how both hardware and software parts of computers work
-					and in a way to connect the knowledge from physics to
-					its late technology. It will be explained more on <a
-					href=https://dekespo.github.io/blog/how_computers_work/index.html>this
-				website </a>. Developed myself alone. The programming
-			languages: Python with heavy unit testing.</li>
-					<li> <a
-						href=https://github.com/dekespo>
-						More on GitHub</a>. I have also worked and coded
-					about scientific computing, modelling complex systems,
-					image analysis, parallel programming.</li>
+						How Computers Work?</a> <p> 
+						Programming Language: Python3 <br>
+						Team: 1 <br>
+						It is a program to show
+						how both hardware and software parts of computers work
+						and in a way to connect the knowledge from physics to
+						its late technology. It will be explained more on <a
+						href=https://dekespo.github.io/blog/how_computers_work/index.html>this
+						website </a>. </p> </span> </li>
+					<li class="showDescription github"> <span> <a href=https://github.com/dekespo> More on GitHub</a>
+						<p> I have also worked and coded
+						about scientific computing, modelling complex systems,
+						image analysis, parallel programming. </p> </span> </li>
 				</ul>
 			</div>
 
 			<br><br>
 
 			<p> My background: </p>
+
+			<br>
+
 			<div id="list">
 				<ul>
 					<li> <a href=http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A770199&dswid=-5573>Level
@@ -134,7 +148,7 @@
 		</div>
 
         <div>
-            <p> <img src="../images/github-mark.png"> Hosted by GitHub</p>
+			<p><a href= https://github.com><img src="../images/github-mark.png"></a> Hosted by GitHub</p>
         </div>
 	</body>
 </html>
