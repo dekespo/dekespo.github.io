@@ -5,6 +5,8 @@
 		<title> dekespo - Portfolio </title>
 		<link rel="stylesheet" href="../css/style.css"/>
 		<script type="text/javascript" src="../javascript/time.js"> </script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	</head>
 
 	<body id="page-wrap" onload="getCurrentTime()">
 		<header class="header-top">
@@ -43,6 +45,11 @@
 			</div>
         </header> 
 
+		<div ng-app="">
+			<p>Name : <input type="text" ng-model="name"></p>
+			<h1>Hello {{name}}</h1>
+		</div>
+
 		<div id="Portfolio">
 			<h1> Dekespo's Portfolio </h1>
 			<p> I code everyday and the following websites are the resources I have studied or used so far.</p>
@@ -60,11 +67,13 @@
 			<p> I have been working and contributing on different projects. The list is as in the following: </p>
 			<div id="list">
 				<ul>
-					<li> <a
-						href=https://github.com/linfredriksson/Brokkr>Brokkr</a>
+					<li class="showDescription brokkr"> <p><a
+						href=https://github.com/linfredriksson/Brokkr>Brokkr</a> <br>
+					Programming Language: Lua <br>
+					Team: 2 <br>
 					A game similar to bomberman that can be played
-					multiplayer over network. Developed with a friend.
-					Programming Language: Lua. </li>
+					multiplayer over network.
+					</p> </li>
 					<li> <a href=https://github.com/naslundx/predprey>
 						predprey </a> A game where predators prey on
 					preys, obviously. When you play as a pred, you
@@ -119,7 +128,7 @@
 				MATLAB. The source code is <a href=https://github.com/dekespo/Level_Set_Method_FEM_MATLAB>here</a> and the presentation
 				is <a href=https://github.com/dekespo/Level_Set_Method_FEM_MATLAB/blob/master/presentation.pdf>here</a>.</li>
 					<li> <a
-						href="C:\Users\TOSHIBA\Desktop\Current CV - Cover Letter\Deniz Kennedy - CV.pdf">My CV</a>.</li>
+						href="https://dekespo.github.io/cv.pdf">My CV</a>.</li>
 				</ul>
 			</div>
 		</div>
