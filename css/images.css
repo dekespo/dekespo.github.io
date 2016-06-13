@@ -1,0 +1,22 @@
+#topImages
+{
+	height: 100px;
+}
+
+#topImages img
+{
+	height: 100px;
+}
+
+#topImages #topLeft
+{
+	float: left;
+	width: 50%;
+}
+
+#topImages #topRight
+{
+	float: right;
+	width: 50%;
+}
+

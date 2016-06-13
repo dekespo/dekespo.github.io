@@ -1,0 +1,9 @@
+@import "style.css";
+
+@media (max-width: 800px)
+{
+	#page-wrap, .header-top, .header-top-hidden
+	{
+		width: 80%;
+	}
+}

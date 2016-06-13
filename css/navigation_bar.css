@@ -1,0 +1,42 @@
+#navigationBar
+{
+	background: black;
+}
+
+#navigationBar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#navigationBar ul li
+{
+	display: inline-block;
+}
+
+#navigationBar ul li a
+{
+	color: red;
+	padding: 0px 16px 0px;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#navigationBar ul li a:hover:not(.active)
+{
+	background-color: #333;
+}
+
+#navigationBar ul li .active
+{
+	background-color: #222;
+}
+
+#currentTime
+{
+	background: black;
+	font-weight: bold;
+}
+

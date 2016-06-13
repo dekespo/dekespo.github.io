@@ -1,0 +1,13 @@
+$(document).ready(function()
+{
+	$('#Portfolio').ready(function()
+	{
+		$('#list').ready(function()
+		{
+			$('li').click(function()
+			{
+				$(this).toggleClass('showDescription');
+			});
+		});
+	});
+});

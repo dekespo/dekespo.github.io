@@ -1,2 +1,2 @@
 # dekespo
-GitHub Blog
+My personal website with GitHub
