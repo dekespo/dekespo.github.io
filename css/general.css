@@ -10,7 +10,7 @@ a:visited
 	//margin-right: auto;
 }
 
-#Home p, #Portfolio p, #Blog p
+#Home p, #Portfolio p, #Blog p, h3
 {
 	width: 80%;
 	margin: 0 auto;
