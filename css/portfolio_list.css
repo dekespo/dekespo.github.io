@@ -1,0 +1,105 @@
+#Portfolio #list ul
+{
+	width: 90%;
+}
+
+#Portfolio #list ul#expansion li
+{
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	height: 300px;
+	position: relative;
+	background-size: 100% 100%;
+}
+
+#Portfolio #list ul#expansion li a#inside
+{
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+}
+
+#Portfolio #list ul#expansion li span
+{
+	bottom: 0px;
+	position: absolute;
+	background-color: rgba(0, 0, 255, .5);
+	color: white;
+}
+
+#Portfolio #list ul#expansion li a
+{
+	color: red;
+	padding: 0px 5px;
+	background-color: rgba(0, 0, 0, .5);
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+}
+
+#Portfolio #list ul#expansion li.showDescription 
+{
+	height: 180px;
+}
+
+#Portfolio #list ul#expansion li.showDescription p
+{
+	opacity: 0;
+}
+
+#Portfolio #list ul#expansion li.showDescription a
+{
+	background-color: black;
+}
+
+#Portfolio #list ul#expansion li.showDescription span
+{
+	position: relative;
+}
+
+#Portfolio #list ul#expansion li.brokkr
+{
+	background-image: url("../images/portfolio/brokkr.png");
+}
+
+#Portfolio #list ul#expansion li.predprey
+{
+	background-image: url("../images/portfolio/predprey.png");
+}
+
+#Portfolio #list ul#expansion li.fightr2
+{
+	background-image: url("../images/portfolio/fightr2.png");
+}
+
+#Portfolio #list ul#expansion li.tictactoe
+{
+	background-image: url("../images/portfolio/tictactoe.png");
+}
+
+#Portfolio #list ul#expansion li.pingpong
+{
+	background-image: url("../images/portfolio/pingpong.png");
+}
+
+#Portfolio #list ul#expansion li.howcomputerworks
+{
+	background-image: url("../images/portfolio/howcomputerworks.png");
+}
+
+#Portfolio #list ul#expansion li.github
+{
+	background-image: url("../images/portfolio/GitHub_Logo.png");
+}
+
+#Portfolio #list ul#expansion li.levelsetmethod
+{
+	background-image: url("../images/portfolio/levelsetmethod.png");
+}
+
+#Portfolio #list ul#expansion li.cv
+{
+	background-image: url("../images/portfolio/cv.png");
+}

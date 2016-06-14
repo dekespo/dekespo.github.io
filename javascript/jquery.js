@@ -4,7 +4,7 @@ $(document).ready(function()
 	{
 		$('#list').ready(function()
 		{
-			$('li').click(function()
+			$('li').hover(function()
 			{
 				$(this).toggleClass('showDescription');
 			});

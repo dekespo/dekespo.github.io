@@ -1,0 +1,10 @@
+#Contact span
+{
+	background: silver;
+	display: inline-block;
+}
+
+#Contact span img
+{
+	padding: 40px;
+}
