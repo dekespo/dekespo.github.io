@@ -1,0 +1,56 @@
+body
+{
+    text-align: center;
+}
+
+.mainBackground
+{
+	background-color: grey;
+}
+
+.canvasBackground
+{
+    background:green;
+}
+
+@media (max-width: 1000px)
+{
+	.canvasBackground
+	{
+		width: 100%;
+	}
+}
+
+.canvasAround
+{
+	overflow: hidden;
+	padding: 10px;
+}
+
+p
+{
+	background: white;
+	font-weight: bold;
+}
+
+#canvasResize
+{
+	background: black;
+}
+
+#canvasResize.resizable
+{
+	position: relative;
+}
+
+#canvasResize .resizer 
+{ 
+	width: 10px; 
+	height: 10px; 
+	background: blue; 
+	position: absolute; 
+	right: 0; 
+	bottom: 0; 
+	cursor: se-resize; 
+}
+

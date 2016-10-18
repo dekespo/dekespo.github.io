@@ -2,20 +2,22 @@
 
 <html lang="en">
 	<head>
-		<title> dekespo - Home </title>
-		<link rel="stylesheet" href="css/style.css"/>
-		<script type="text/javascript" src="javascript/time.js"> </script>
+		<title> dekespo - Games - PING PONG HTML CANVAS GAME </title>
+		<link rel="stylesheet" href="../css/style.css"/>
+		<script type="text/javascript" src="../javascript/time.js"> </script>
+		<script type="text/javascript" src="pingpong.js"> </script>
+	</head>
 
 	<body id="page-wrap" onload="getCurrentTime()">
 		<header class="header-top">
             <div id="topImages"> 
-                <img id="topLeft" src="images/header_and_bottom/mathematics.png">
-                <img id="topRight" src="images/header_and_bottom/programming.png">
+                <img id="topLeft" src="../images/header_and_bottom/mathematics.png">
+                <img id="topRight" src="../images/header_and_bottom/programming.png">
             </div>
             <div id="currentTime"> </div>
 			<div id="navigationBar">
 				<ul>
-					<li> <a class="active" href=https://dekespo.github.io/index> Home </a> </li> 
+					<li> <a href=https://dekespo.github.io/index> Home </a> </li> 
 					<li> <a href=https://dekespo.github.io/portfolio/index> Portfolio </a> </li>
 					<li class="dropdown"> 
 						<a href=https://dekespo.github.io/blog/index> Blog </a> 
@@ -23,7 +25,12 @@
 							<a href="https://dekespo.github.io/blog/how_computers_work/index.html"> How computers work?</a>
 						</div>
 					</li>
-					<li> <a href=https://dekespo.github.io/games/index> Games </a> </li> 
+					<li class="dropdown"> 
+						<a class="active" href=https://dekespo.github.io/games/index> Games </a>
+						<div class="dropdown-content">
+							<a href="https://dekespo.github.io/games/pingpong/index.html"> Ping Pong </a>
+						</div>
+					</li>
 					<li> <a href=https://dekespo.github.io/contact/index> Contact </a> </li> 
 				</ul>
 			</div>
@@ -42,23 +49,18 @@
 			</div>
         </header> 
 
-		<div id="Home">
-			<h1> Dekespo's Home </h1>
-			<h3> Welcome to Dekespo's website and thanks for
-			visiting. Here you can find my portfolio and blog.
-			Please click on the above to see what I can offer! </h3>
-
-			<br>
-
-			<!--
-			<p style="color:yellow;background:blue;"> Currently, the website is under construction, sorry
-			for any inconvenience. </p>
-			-->
+		<div id="Games">
+			<h1> Dekespo's Games </h1>
+			<p> Games are available here: </p>
+			<ul>
+				<li><a href="https://dekespo.github.io/games/pingpong/index.html"> Ping Pong </a></li>
+			</ul>
 		</div>
 
         <div>
 			<p><a href= https://github.com target="_blank"><img
-				src="images/header_and_bottom/github-mark.png"></a> Hosted by GitHub</p>
+				src="../images/header_and_bottom/github-mark.png"></a> Hosted by GitHub</p>
         </div>
 	</body>
 </html>
+

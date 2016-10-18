@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> dekespo - Games - PING PONG HTML CANVAS GAME </title>
+		<link rel="stylesheet" href="localstyle.css"/>
+		<link rel="stylesheet" href="../../css/style.css"/>
+		<script type="text/javascript" src="../../javascript/time.js"> </script>
+		<script type="text/javascript" src="pingpong.js"> </script>
+	</head>
+
+	<body id="page-wrap" onload="getCurrentTime()">
+		<header class="header-top">
+            <div id="topImages"> 
+                <img id="topLeft" src="../../images/header_and_bottom/mathematics.png">
+                <img id="topRight" src="../../images/header_and_bottom/programming.png">
+            </div>
+            <div id="currentTime"> </div>
+			<div id="navigationBar">
+				<ul>
+					<li> <a href=https://dekespo.github.io/index> Home </a> </li> 
+					<li> <a href=https://dekespo.github.io/portfolio/index> Portfolio </a> </li>
+					<li class="dropdown"> 
+						<a href=https://dekespo.github.io/blog/index> Blog </a> 
+						<div class="dropdown-content">
+							<a href="https://dekespo.github.io/blog/how_computers_work/index.html"> How computers work?</a>
+						</div>
+					</li>
+					<li class="dropdown"> 
+						<a class="active" href=https://dekespo.github.io/games/index> Games </a>
+						<div class="dropdown-content">
+							<a href="https://dekespo.github.io/games/pingpong/index.html"> Ping Pong </a>
+						</div>
+					</li>
+					<li> <a href=https://dekespo.github.io/contact/index> Contact </a> </li> 
+				</ul>
+			</div>
+		</header> 
+
+        <header class="header-top-hidden">
+            <div id="topImages"> 
+                <img id="topLeft" src="#">
+                <img id="topRight" src="#">
+            </div>
+			<br>
+			<div id="navigationBar">
+				<ul>
+					<li> <a href="#"></a></li>
+				</ul>
+			</div>
+        </header> 
+
+		<div class="mainBackground">
+			<div class="canvasAround" id="canvasResize">
+				<canvas class="canvasBackground" id="canvas">
+					your browser doesn't support canvas!
+				</canvas>
+			</div>
+			<script> main() </script> 
+			<select id="selectSize" onchange="selectOptionSize()">
+				<option value=1.0>thick</option>
+				<option value=2.5 selected="selected">normal</option>
+				<option value=4.0>thin</option>
+			</select>
+			<select id="selectLevel" onchange="selectOptionLevel()">
+				<option value="easy">Easy</option>
+				<option value="artista" selected="selected">Artista</option>
+				<option value="medium">Medium</option>
+				<option value="hard">Hard</option>
+				<option value="immortal">Immortal</option>
+			</select>
+			<div>
+				<p> Click inside the box to play or pause </p>
+			</div>
+		</div>
+
+        <div>
+			<p><a href= https://github.com target="_blank"><img
+				src="../../images/header_and_bottom/github-mark.png"></a> Hosted by GitHub</p>
+        </div>
+	</body>
+</html>
+
