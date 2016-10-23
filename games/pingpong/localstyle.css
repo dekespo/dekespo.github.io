@@ -1,16 +1,6 @@
-body
-{
-    text-align: center;
-}
-
-.mainBackground
-{
-	background-color: grey;
-}
-
 .canvasBackground
 {
-    background:green;
+    background: green;
 }
 
 @media (max-width: 1000px)
@@ -27,17 +17,6 @@ body
 	padding: 10px;
 }
 
-p
-{
-	background: white;
-	font-weight: bold;
-}
-
-#canvasResize
-{
-	background: black;
-}
-
 #canvasResize.resizable
 {
 	position: relative;
@@ -45,8 +24,8 @@ p
 
 #canvasResize .resizer 
 { 
-	width: 10px; 
-	height: 10px; 
+	width: 20px; 
+	height: 20px; 
 	background: blue; 
 	position: absolute; 
 	right: 0; 
