@@ -50,27 +50,40 @@
 			</div>
         </header> 
 
-		<div class="mainBackground">
+		<div id="Game">
 			<div class="canvasAround" id="canvasResize">
 				<canvas class="canvasBackground" id="canvas">
 					your browser doesn't support canvas!
 				</canvas>
 			</div>
-			<script> main() </script> 
-			<select id="selectSize" onchange="selectOptionSize()">
-				<option value=1.0>thick</option>
-				<option value=2.5 selected="selected">normal</option>
-				<option value=4.0>thin</option>
-			</select>
-			<select id="selectLevel" onchange="selectOptionLevel()">
-				<option value="easy">Easy</option>
-				<option value="artista" selected="selected">Artista</option>
-				<option value="medium">Medium</option>
-				<option value="hard">Hard</option>
-				<option value="immortal">Immortal</option>
-			</select>
 			<div>
+				<script> main() </script> 
+				<select id="selectSize" onchange="selectOptionSize()">
+					<option value=1.0>thick</option>
+					<option value=2.5 selected="selected">normal</option>
+					<option value=4.0>thin</option>
+				</select>
+				<select id="selectLevel" onchange="selectOptionLevel()">
+					<option value="easy">Easy</option>
+					<option value="artista" selected="selected">Artista</option>
+					<option value="medium">Medium</option>
+					<option value="hard">Hard</option>
+					<option value="immortal">Immortal</option>
+				</select>
+			</div>
+			<div id="list">
 				<p> Click inside the box to play or pause </p>
+				<br>
+				<p> Please note that there are a few bugs here </p>
+				<ul>
+					<li>The collision detection is not working properly, it can get stuck inside a hockey</li>
+					<li>The resizing of the game window should be more user freindly, like it should not be fixed to the left upper corner</li> 
+					<li>The AI is not well balanced between difficulties and it should use a different approach</li>
+				</ul>
+				<br>
+				<p> I will fix the bugs some time and until then you are welcome to fix these on this <a href = https://github.com/dekespo/ping_pong_html_canvas_js>link</a></p>
+				<br>
+				<p> And enjoy the game! </p>
 			</div>
 		</div>
 
